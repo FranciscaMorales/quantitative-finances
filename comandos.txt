@@ -25,3 +25,9 @@ git status
 
 #Guardar cambios
 git add #nombre de archivo
+
+#Comentar cambios
+git commit -m "rama actualizada"
+
+#Actualizar branch
+git push origin main
