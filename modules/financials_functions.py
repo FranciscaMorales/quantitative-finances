@@ -78,7 +78,6 @@ def portfolio_returns (
 
     return df_pivot
 
-
 def VaR(sigma:float, confidence:float) -> float:
     '''
     Calculo del Value at Risk al nivel de confianza indicado
