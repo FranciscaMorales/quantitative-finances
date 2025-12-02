@@ -63,7 +63,7 @@ def portfolio_returns (
         start_date=start,
         end_date=end,
         tickers=tickers)
-    print(df)
+    
     #pivot retornos
     df_pivot = pd.pivot_table(
         data=df,
